@@ -12,7 +12,7 @@ npm run start
 ## Rocket
 To run rocket you need [rust](https://www.rust-lang.org/tools/install), I highly recommend you use rustup for this, it's pretty much like nvm.
 
-After installing rust, run:
+After installing rust via rustup, run:
 ```bash
 cd rust-rocket
 rustup override set nightly
