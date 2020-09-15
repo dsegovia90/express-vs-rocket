@@ -10,6 +10,7 @@ cd express
 npm install
 npm run start
 ```
+The second command installs all necessary npm packages, and the third command compiles typescript to javascript and runs the server.
 
 ## Rocket
 To run [rocket](https://rocket.rs/) you need [rust](https://www.rust-lang.org/tools/install), I highly recommend you use rustup for this, it's pretty much like nvm. If you are using windows, keep in mind that you need to install [Visual Studio C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
@@ -33,5 +34,10 @@ Windows:
 ```cmd
 target/release/rust-rocket.exe
 ```
+## Future experimentation
+After writing the article tied to this repo, I came to the realization that it is unrealistic to switch entirely from an express server to rocket. So, my next experiment will be to bridge the gap between Node and Rocket with WASM.
 
+At the time of writing this I have no idea how to work with WASM, but that's what this is about. Learning through experimentation.
+
+## Issues, problems or bugs
 Please open an issue if you found a bug, typo, instructions are not clear, or your build is not working properly.
