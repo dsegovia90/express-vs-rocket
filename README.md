@@ -35,7 +35,7 @@ Windows:
 target/release/rust-rocket.exe
 ```
 ## Future experimentation
-After writing the article tied to this repo, I came to the realization that it is unrealistic to switch entirely from an express server to rocket. So, my next experiment will be to bridge the gap between Node and Rocket with WASM.
+After writing the article (you can read it [here](https://medium.com/@dsegovia90/node-express-vs-rust-rocket-speed-comparison-db43a5cf4537)) tied to this repo, I came to the realization that it is unrealistic to switch entirely from an express server to rocket. So, my next experiment will be to bridge the gap between Node and Rocket with WASM.
 
 At the time of writing this I have no idea how to work with WASM, but that's what this is about. Learning through experimentation.
 
