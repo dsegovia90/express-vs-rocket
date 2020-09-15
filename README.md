@@ -22,7 +22,7 @@ cargo build --release
 ```
 The second command will install rust nighlty, and only switch to it on this folder of your machine.
 
-The third command installs dependencies and compiles the binary which you can run with the following command from the rust-rocket folder:
+The third command installs dependencies and compiles the binary/executable which you can run with the following command from the rust-rocket folder:
 
 Unix:
 ```bash
